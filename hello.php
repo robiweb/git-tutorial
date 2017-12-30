@@ -11,6 +11,13 @@ class hello
     function main()
     {
         echo "phpstrom code editor is good";
+
+        $this->greeting("Robi Hasan");
+    }
+
+    function greeting($name)
+    {
+        echo "Welcome " . $name;
     }
 
 }
