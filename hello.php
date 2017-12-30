@@ -11,23 +11,11 @@ class hello
     function main()
     {
         echo "phpstrom code editor is good";
-
-        $this->greeting("Git");
     }
 
-    function greeting($name)
+    function message()
     {
-        echo "Welcome " . $name;
-    }
-
-    function display()
-    {
-        echo "Hello Hello";
-    }
-
-    function sqr($x)
-    {
-        echo $x * $x;
+        echo "Hooray!!! Now we are able to contribute on open source";
     }
 
 }
