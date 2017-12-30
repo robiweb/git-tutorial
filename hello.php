@@ -12,12 +12,12 @@ class hello
     {
         echo "phpstrom code editor is good";
 
-        $this->greeting("Robi Hasan");
+        $this->greeting("Git");
     }
 
     function greeting($name)
     {
-        echo "Welcome " . $name;
+        echo "Bye Bye... " . $name;
     }
 
 }
