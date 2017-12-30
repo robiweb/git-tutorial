@@ -20,4 +20,9 @@ class hello
         echo "Welcome " . $name;
     }
 
+    function sqr($x)
+    {
+        echo $x * $x;
+    }
+
 }
