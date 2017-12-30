@@ -15,9 +15,9 @@ class hello
         $this->greeting("Git");
     }
 
-    function greeting($name)
+    function display()
     {
-        echo "Bye Bye... " . $name;
+        echo "Hello Hello";
     }
 
 }
